@@ -1,0 +1,236 @@
+@font-face {
+    font-family:'Balgin';
+    src: url(Fontspring-DEMO-balgin-extralightexpanded.otf);
+}
+    
+
+HTML {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Balgin';
+    color: #0189F8;
+}
+
+
+
+/* GENERAL < */
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    padding: 3rem;
+    color: #0189F8;
+}
+
+.fullscreen {  /* FULLSCREEN */
+    height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+/*    GRID  <  */
+.grid {
+    display: grid;
+    margin: auto;
+    width: 80%;
+    gap: 3rem;
+}
+/*    GRID  <  */
+
+        /*  SLIDESHOW   < */
+            .slideshow-container {
+                max-width: 80%;
+                margin: auto;
+                height: 80vh;
+            }
+
+            
+            /* Fading animation */
+            .fade {
+                animation-name: fade;
+                animation-duration: 5s;
+            }
+            
+            @keyframes fade {
+                from {opacity: .9}
+                to {opacity: 1}
+            }
+
+            .slideshow-container img {
+                height: 80vh;
+            }
+        /*  SLIDESHOW   > */
+    
+/* GENERAL > */
+
+
+
+
+
+
+/* HEADER < */
+
+.show-element {
+
+}
+    #show-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0);
+        border: none;
+        width: 100%;
+        position: fixed;
+        margin: 1rem;
+        z-index: 1;
+    }
+        #show-nav div {
+            height: 6px;
+            width: 3rem;
+            margin: 0rem 1rem;
+            border-radius: 15%;
+            z-index: 2;
+        }
+
+#header {
+    display: none;
+    position: fixed;
+    justify-content: space-around;
+    height: 12rem;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+    #logo {
+        height: 14rem;
+    }
+
+    nav {
+        margin-top: 5%;
+    }
+
+        nav a {
+            color: #0189F8;
+            font-size: 20px;
+            margin: 2rem;
+        }
+            nav a:active {
+                text-transform: capitalize ;
+            }
+/* HEADER > */
+
+
+
+
+
+/* SERVICII < */
+#servicii {
+    color: rgb(255, 255, 255);
+    text-align: center;    
+}
+
+    #servicii .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #servicii .grid-content {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    #servicii p {
+        margin: 2rem;
+        line-height: 1.2rem;
+        letter-spacing: 2px;
+    }
+
+/* SERVICII > */  
+
+
+
+
+/* PROIECTE < */
+#proiecte {
+    color: rgb(255, 255, 255);
+    text-align: center;    
+}
+
+#proiecte .grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    }
+
+#proiecte img {
+    width: 50%;
+    margin: auto;
+}
+/* PROIECTE > */  
+
+
+
+
+/* GALLERY < */
+#gallery {
+    margin: 5rem auto;
+    text-align: center;
+}
+/* GALLERY > */
+
+
+
+
+
+/* DESPRE < */
+#despre {
+    color: rgb(255, 255, 255);
+    text-align: center;    
+}
+
+#despre .grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#despre img {
+    width: 50%;
+    margin: auto;
+}
+/* DESPRE > */  
+
+
+
+/*  CONTACT < */
+#contact {
+    text-align: center;
+}
+
+#contact .grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+#contact img {
+    width: 50%;
+    margin: auto;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-right: solid 1px;
+    border-color: #0189F8;
+}
+    #contact a {
+        text-decoration: none;
+        color: #0189F8;
+        font-size: 20px;
+        line-height: 2rem;
+    }
+/*  CONTACT > */
