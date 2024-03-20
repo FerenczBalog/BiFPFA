@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BiF PFA</title>
     <meta name="description" content="">
+    
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,9 +17,9 @@
             <a href="#">acasa</a>
             <a href="#servicii">servicii</a>
             <a href="#proiecte">proiecte</a>
-            <a href="#gallery">galerie foto</a>
+            <!--                <a href="#gallery">galerie foto</a>   -->
             <a href="#despre">despre</a>
-            <a href="#despre">contact</a>
+            <a href="#contact">contact</a>
         </nav>
     </header>  <!--  HEADER > -->
 
@@ -34,7 +35,7 @@
         <img src=" " alt="" srcset="" id="banner">
     </section>  <!--  HERO > -->
 
-    <section id="servicii" class="fullscreen"> <!--  SERVICII < -->
+    <section id="servicii" class=" "> <!--  SERVICII < -->
                 
         <h1>SERVICIILE BIF</h1>
 
@@ -74,30 +75,47 @@
 
     </section>  <!--  SERVICII > -->
 
-    <section id="proiecte" class="fullscreen"> <!--  PROIECTE < -->
+    <section id="proiecte" class=" "> <!--  PROIECTE < -->
 
         <h1>PROIECTE BIF</h1>
 
         <div class="grid">
 
-            <!-- PROJECT 1 -->
-           <img src="/Media/Slideshow/img2.JPG" alt="proiect-bif-pfa" srcset="">
+            <!-- PROJECT 1 < -->
+           <div class="CSSslides">
+                <img src="/Media/projects/mylifedash/1.png" alt="proiect web development, web application Balog I Ferencz PFA">
+                <img src="/Media/projects/mylifedash/2.png" alt="proiect web development, web application Balog I Ferencz PFA">
+                <img src="/Media/projects/mylifedash/mylifedash.png" alt="proiect web development, web application Balog I Ferencz PFA" srcset="">
+           </div>
+
            <div>
-            <h2>Project Title</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime animi harum quidem laborum sint voluptas dolorem eveniet, illum laboriosam illo sunt voluptatibus quos voluptates nesciunt qui ipsa, quas beatae. Omnis.
-            </p>
+            <h2 id="projectTitle1"> </h2>
+            <p id="projectDesc1"> </p>
            </div>
             <!-- PROJECT 1 -->
 
             <!-- PROJECT 2 -->
            <div>
-            <h2>Project Title</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime animi harum quidem laborum sint voluptas dolorem eveniet, illum laboriosam illo sunt voluptatibus quos voluptates nesciunt qui ipsa, quas beatae. Omnis.
-            </p>
+            <h2 id="projectTitle2"> </h2>
+            <p id="projectDesc2"> </p>
            </div>
-           <img src="/Media/Slideshow/img3.JPG" alt="proiect-bif-pfa" srcset="">
+           <div class="CSSslides">
+            <img src="/Media/projects/riderbox/riderbox.png" alt="proiect web development, web application Balog I Ferencz PFA">
+            </div>
+
+            <!-- PROJECT 2 -->
+
+            <!-- PROJECT 2 -->
+            <div class="CSSslides">
+                <img src="/Media/projects/drop/drop.png" alt="proiect web development, web design, logo design Balog I Ferencz PFA">
+                <img src="/Media/projects/drop/drop-mobile.png" alt="proiect web development, web design, logo design Balog I Ferencz PFA">
+                <img src="/Media/projects/drop/DROP2.png" alt="proiect web development, web design, logo design Balog I Ferencz PFA" srcset="">
+                <img src="/Media/projects/drop/DROP3.png" alt="proiect web development, web design, logo design Balog I Ferencz PFA">
+            </div>
+            <div>
+                <h2 id="projectTitle3"> </h2>
+                <p id="projectDesc3"> </p>
+            </div>
 
             <!-- PROJECT 2 -->
 
@@ -139,36 +157,32 @@
             </div>
         </div>    
     </section>
-
+        
     <section id="despre" class="fullscreen">
 
         <h1>DESPRE BIF PFA</h1>
 
         <div class="grid">
-            <img src="/Media/Balog_I_Ferencz_PFA_logo_2.png" alt="proiect-bif-pfa" srcset="">
+            <img src="#" alt="proiect-bif-pfa" srcset="" id="despreLogo">
             <div>
                 <h2>BIF PFA</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime animi harum quidem laborum sint voluptas dolorem eveniet, illum laboriosam illo sunt voluptatibus quos voluptates nesciunt qui ipsa, quas beatae. Omnis.
-                </p>
+                <p id="despreDesc"> </p>
+                <p id="despreDesc2"> </p>
             </div>
         </div> 
     </section>
 
-    <section id="contact" class="fullscreen">
+    <section id="contact" class=" ">
 
-        <h1>CONTACT</h1>
-        
         <div class="grid">
-            <div class="contact">
+
+            <h1>CONTACT</h1>
+
+            <div class="contact adress">
                 <h2>Balog Ferencz</h2>
-                <img src="/Media/Balog_I_Ferencz_PFA_logo.png" alt="profil-foto">
-                <p>in f</p>
-            </div>
-            
-            <div style="padding-top: 20%;">
-                <a href="mailto:bif.pfa@gmail.com">bif.pfa@gmail.com</a> <br>
-                <a href="mailto:balogferencz.artist@gmail.com">balogferencz.artist@gmail.com</a> <br><br>
+
+                <a href="mailto:bif.pfa@gmail.com">bif.pfa&#64;gmail.com</a> <br>
+                <a href="mailto:balogferencz.artist@gmail.com">balogferencz.artist&#64;gmail.com</a> <br>
                 <a href="tel:+40753903370">0753 903 370</a> <br>
                 <a href="tel:+40753903370">0752 813 860</a>
             </div>
@@ -176,6 +190,9 @@
 
     </section>
 
+    <div data-tf-live="01HSE7E03GPST79J0TPQHYHC6G"></div>    
+    <script src="//embed.typeform.com/next/embed.js"></script>
+    
     <script src="/Backend/engine.js"></script>    
     <script src="fx-script.js"></script>    
 </body>

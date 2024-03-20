@@ -19,11 +19,16 @@ a {
 
 body {
     margin: 0;
+    width: 100%;
 }
 
 h1 {
     padding: 3rem;
     color: #0189F8;
+}
+
+p {
+    font-size: 20px;
 }
 
 .fullscreen {  /* FULLSCREEN */
@@ -105,7 +110,7 @@ h1 {
     justify-content: space-around;
     height: 12rem;
     width: 100%;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     z-index: 1;
 }
     #logo {
@@ -121,8 +126,8 @@ h1 {
             font-size: 20px;
             margin: 2rem;
         }
-            nav a:active {
-                text-transform: capitalize ;
+            nav a:hover {
+                color: #62ace9;
             }
 /* HEADER > */
 
@@ -149,6 +154,7 @@ h1 {
         margin: 2rem;
         line-height: 1.2rem;
         letter-spacing: 2px;
+        font-family: 'Times New Roman', Times, serif
     }
 
 /* SERVICII > */  
@@ -167,9 +173,31 @@ h1 {
     align-items: center;
     }
 
+    .CSSslides {
+        display: flex;
+        flex-direction: row;
+        overflow-anchor:auto;
+        overflow-x: scroll;
+    }
+        .grid ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        .grid ::-webkit-scrollbar-track {
+            width: 15px;
+            background: #a0c8e822;
+        }
+        .grid ::-webkit-scrollbar-thumb {
+            background: #0189f81d;
+        }
+
 #proiecte img {
-    width: 50%;
-    margin: auto;
+    width: 100%;
+    margin: 0rem 2rem;
+}
+
+#proiecte p {
+    font-family: 'Times New Roman', Times, serif;
 }
 /* PROIECTE > */  
 
@@ -178,6 +206,7 @@ h1 {
 
 /* GALLERY < */
 #gallery {
+    display: none;
     margin: 5rem auto;
     text-align: center;
 }
@@ -189,6 +218,7 @@ h1 {
 
 /* DESPRE < */
 #despre {
+    height: 50vh;
     color: rgb(255, 255, 255);
     text-align: center;    
 }
@@ -202,6 +232,12 @@ h1 {
     width: 50%;
     margin: auto;
 }
+
+#despre p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 5%;
+}
 /* DESPRE > */  
 
 
@@ -209,6 +245,9 @@ h1 {
 /*  CONTACT < */
 #contact {
     text-align: center;
+    margin: 30% auto 2rem;
+    border-top: solid 1px #0189F8;
+    border-bottom: solid 1px #0189F8;
 }
 
 #contact .grid {
@@ -220,17 +259,157 @@ h1 {
     margin: auto;
 }
 
+#contact h2 {
+    margin-top: 0;
+}
+
 .contact {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-right: solid 1px;
     border-color: #0189F8;
+    margin: 2rem 0rem;
 }
+
+    .contact p {
+        margin: 0;
+    }
+
     #contact a {
         text-decoration: none;
         color: #0189F8;
         font-size: 20px;
-        line-height: 2rem;
+        line-height: normal;
+    }
+
+    .address {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+    
+    .adress a {
+        font-family: 'Times New Roman', Times, serif;
+
     }
 /*  CONTACT > */
+
+
+/*      MEDIA QUERY   <  */
+@media (max-width:1400px) {     /*      1400px        */
+
+    #contact {
+        margin: 30% auto 2rem;
+    }
+
+    nav a{
+        font-size: 15px;
+    }
+
+    #servicii .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width:1000px) {
+
+    #banner {
+        width: 100%;
+    }
+
+    #servicii h2 {
+        font-size: 18px;
+    }
+
+    #contact h2{
+        font-size: 18px;
+    }
+
+    #contact a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:700px) {
+
+    h1 {
+        padding-bottom: 0%;
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #hero {
+        height: auto;
+    }
+
+    #banner {
+        margin: auto;
+        height: 50%;
+    }
+
+    #header nav {
+        margin-top: 3rem;
+    }
+
+        #header nav a {
+            font-size: 12px;
+            margin-left: 0%;
+        }
+
+    #servicii .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #proiecte .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #despre .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #contact .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        border: none;
+    }
+
+    #contact img{
+        width: 70%;
+    }
+        #contact a {
+            font-size: 12px;
+        }
+
+    #proiecte .CSSslides {
+        display: none;
+    }
+
+    #despre {
+        height: auto;
+    }
+
+    #gallery {
+        height: auto;
+    }
+
+        #gallery img {
+            height: 50%;
+        }
+
+    #contact > p {
+        font-size: 8px;
+        margin: 2rem 0rem 0rem 0rem;
+    }
+}
+/*      MEDIA QUERY   >  */

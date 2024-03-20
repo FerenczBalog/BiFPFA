@@ -2,18 +2,38 @@
     "logo_black": "../media/Balog_I_Ferencz_PFA_logo.png",
     "logo_transparent": "../media/Balog_I_Ferencz_PFA_logo_2.png",
 
-    "serv1":"Logo Design",
-    "serv2":"Web Design",
-    "serv3":"SEO",
-    "serv4":"Website static",
+
+
+    "serv1":"Design",
+    "serv2":"SEO",
+    "serv3":"Landing Page",
+    "serv4":"Business Website",
     "serv5":"Applicatii web",
     "serv6":"Administrare pagina web",
 
-    "servDesc1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-    "servDesc2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-    "servDesc3":"DesignLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries",
-    "servDesc4":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuriesDesign",
-    "servDesc5":"DesigLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuriesn",
-    "servDesc6":"DesignLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
+    "servDesc1":"Pentru ca vizitatori website-ului dumneavoastră să aibă o experiență plăcută acordăm o servicii de design de calitate cuprinzând logo și web design. Pe lângă un design elegant, luăm în cosiderare și faptul ca website-ul dumneavoastră să arate pe toate dispozitivele.",
+    "servDesc2":"Afacerea dumneavoastră nu apare în căutările motoarelor de căutare? Serviciul de SEO - Search Engine Optimization al BIF PFA ajută ca pagina web afacerii dumneavoatră să ajungă în primele locuri din rezultatele ale motoarelor de căutare.",
+    "servDesc3":"Dacă doriți să prezentați un produs nou, eveniment sau o microîntreprindere, acest serviciu este pentru dumneavoastră. BIF PFA oferă Landing Page-uri nu doar cu cele mai performante metode ci și ceea mai bună metodă pentru buzunarul dumneavoastră. ",
+    "servDesc4":"Oricare afacere merită să aibă o prezență online. BIF PFA are scopul de a acorda ajutor tuturor antreprenorilor să-și aducă business-ul la vedere indiferent de mărimea acestora.",
+    "servDesc5":"Aplicațiile web oferite de BIF PFA sunt de tip Single Page Application (SPA). Scopul lor este ca să ușureze lucurile zi de zi atât în afacerea dumneavoastră cât și în viața de zi cu zi.",
+    "servDesc6":"Aveți deja un wesite, dar doriți să schimbați ceva la ea? BIF PFA vă stă la dispoziție, fie vorba de design sau element nou.",
 
+
+
+    "prTitle1":"Mylifedash",
+    "prTitle2":"Rider Box",
+    "prTitle3":"Drop delivery",
+
+    "prDesc1":"Proiectul mylifedash este o aplicație web sub construcție având scopul de a ajuta utilizatorii săi ca să-și poată organiza viața zi cu zi. Aplicația este construit ca să arate vremea pe trei zile, datele fiind retrase dintr-un API.",
+    "prDesc2":"O aplicație web destinată instituțiilor culturale și afacerilor care are ca activitate de bază servicii producție al evenimentelor artistice. Aplicația conține fișele tehnice (Rideri) necesare pentru un spectacole sau evenimente artistice. Website-ul este creat cu React Js.",
+    "prDesc3":"Website creat pentru o flotă de curierat prin CMS-ul Webflow este un site de prezentare cu un design și o relație UX/UI armonioasă. Sarcina al BIF PFA era ca să schimbe anumite elemente, să ajusteze designul și să  administreze legăturile printre linkuri.",
+
+    "prImg1":"../Media/projects/mylifedash.png",
+    "prImg2":"../Media/projects/riderbox.png",
+    "prImg3":"../Media/projects/drop.png",
+
+    "abDesc":"BIF PFA este o microîntreprindere cu o vechime de cinci ani în business cu activități multiple precum curierat, suport pentru evenimente artistice și web development și design.",
+    "abDesc2":"Piedestalul microîntreprinderii BIF PFA este curieratul, urmat de suportul pentru evenimente artistice însă scopul principal este de a se îndrepta înspre web development și design ajutând întreprinderile să-și crească amprenta digitală. Pe lângă alte agenții de web design și development BIF PFA acordă opțiunea de a se deplasa la biroul clientului pentru o perioadă determinată. Technologiile pentru crearea website-urilor se adaptează la nevoile clienților.",
+
+    "prPhoto":"../Media/projects/drop.png"
 }

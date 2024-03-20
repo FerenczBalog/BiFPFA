@@ -15,14 +15,35 @@ const servDesc4 = document.querySelector('#servDesc-4')
 const servDesc5 = document.querySelector('#servDesc-5')
 const servDesc6 = document.querySelector('#servDesc-6')
 
+const ProjectTitle1 = document.querySelector("#projectTitle1")
+const ProjectTitle2 = document.querySelector("#projectTitle2")
+const ProjectTitle3 = document.querySelector("#projectTitle3")
+
+const ProjectDesc1 = document.querySelector("#projectDesc1")
+const ProjectDesc2 = document.querySelector("#projectDesc2")
+const ProjectDesc3 = document.querySelector("#projectDesc3")
+/*
+const ProjectImg1 = document.querySelector("#projectImg1")
+const ProjectImg2 = document.querySelector("#projectImg2")
+const ProjectImg3 = document.querySelector("#projectImg3")
+*/
+
+const aboutImg = document.querySelector("#despreLogo")
+const aboutDesc = document.querySelector("#despreDesc")
+const aboutDesc2= document.querySelector("#despreDesc2")
+
+
 fetch('../backend/data.json')
         .then(response => response.json())
         .then(response => {
           console.log(response);
 
+          /*  Header  < */
           banner.src = response.logo_transparent;
-          logo.src = response.logo_transparent
+          logo.src = response.logo_transparent;
+          /*  Header  > */
 
+          /*  Servicii  < */
           serv1.innerHTML = response.serv1;
           serv2.innerHTML = response.serv2;
           serv3.innerHTML = response.serv3;
@@ -36,6 +57,24 @@ fetch('../backend/data.json')
           servDesc4.innerHTML = response.servDesc4;
           servDesc5.innerHTML = response.servDesc5;
           servDesc6.innerHTML = response.servDesc6;
+          /*  Servicii  > */
+
+          /*  Proiecte  < */
+          ProjectTitle1.innerHTML = response.prTitle1;
+          ProjectTitle2.innerHTML = response.prTitle2;
+          ProjectTitle3.innerHTML = response.prTitle3;
+
+          ProjectDesc1.innerHTML = response.prDesc1;
+          ProjectDesc2.innerHTML = response.prDesc2;
+          ProjectDesc3.innerHTML = response.prDesc3;
+
+          /*  Proiecte  > */
+
+          /*  About   < */
+          aboutImg.src = response.logo_transparent;
+          aboutDesc.innerHTML = response.abDesc;
+          aboutDesc2.innerHTML = response.abDesc2;
+          /*  About   > */
     }
     )
     .catch(function(err) {
