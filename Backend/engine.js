@@ -36,7 +36,7 @@ const aboutDesc2= document.querySelector("#despreDesc2")
 fetch('../backend/data.json')
         .then(response => response.json())
         .then(response => {
-          console.log(response);
+         // console.log(response);
 
           /*  Header  < */
           banner.src = response.logo_transparent;
