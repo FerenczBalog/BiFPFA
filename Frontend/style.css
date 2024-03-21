@@ -6,7 +6,7 @@
 
 HTML {
     background-color: rgb(0, 0, 0);
-    font-family: 'Balgin';
+    font-family: 'Balgin', 'Courier New', Courier, monospace;
     color: #0189F8;
 }
 
@@ -192,7 +192,8 @@ p {
         }
 
 #proiecte img {
-    width: 100%;
+    width: 480px;
+    height: 270px;
     margin: 0rem 2rem;
 }
 
