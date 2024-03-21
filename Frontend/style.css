@@ -192,8 +192,7 @@ p {
         }
 
 #proiecte img {
-    width: 480px;
-    height: 270px;
+    width: 100%;
     margin: 0rem 2rem;
 }
 
