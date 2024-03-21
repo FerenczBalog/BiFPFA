@@ -1,9 +1,4 @@
 {
-    "logo_black": "../media/Balog_I_Ferencz_PFA_logo.png",
-    "logo_transparent": "../media/Balog_I_Ferencz_PFA_logo_2.png",
-
-
-
     "serv1":"Design",
     "serv2":"SEO",
     "serv3":"Landing Page",
@@ -28,12 +23,6 @@
     "prDesc2":"O aplicație web destinată instituțiilor culturale și afacerilor care are ca activitate de bază servicii producție al evenimentelor artistice. Aplicația conține fișele tehnice (Rideri) necesare pentru un spectacole sau evenimente artistice. Website-ul este creat cu React Js.",
     "prDesc3":"Website creat pentru o flotă de curierat prin CMS-ul Webflow este un site de prezentare cu un design și o relație UX/UI armonioasă. Sarcina al BIF PFA era ca să schimbe anumite elemente, să ajusteze designul și să  administreze legăturile printre linkuri.",
 
-    "prImg1":"../Media/projects/mylifedash.png",
-    "prImg2":"../Media/projects/riderbox.png",
-    "prImg3":"../Media/projects/drop.png",
-
     "abDesc":"BIF PFA este o microîntreprindere cu o vechime de cinci ani în business cu activități multiple precum curierat, suport pentru evenimente artistice și web development și design.",
-    "abDesc2":"Piedestalul microîntreprinderii BIF PFA este curieratul, urmat de suportul pentru evenimente artistice însă scopul principal este de a se îndrepta înspre web development și design ajutând întreprinderile să-și crească amprenta digitală. Pe lângă alte agenții de web design și development BIF PFA acordă opțiunea de a se deplasa la biroul clientului pentru o perioadă determinată. Technologiile pentru crearea website-urilor se adaptează la nevoile clienților.",
-
-    "prPhoto":"../Media/projects/drop.png"
+    "abDesc2":"Piedestalul microîntreprinderii BIF PFA este curieratul, urmat de suportul pentru evenimente artistice însă scopul principal este de a se îndrepta înspre web development și design ajutând întreprinderile să-și crească amprenta digitală. Pe lângă alte agenții de web design și development BIF PFA acordă opțiunea de a se deplasa la biroul clientului pentru o perioadă determinată. Technologiile pentru crearea website-urilor se adaptează la nevoile clienților."
 }
