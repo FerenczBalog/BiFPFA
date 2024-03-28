@@ -1,17 +1,17 @@
 {
     "serv1":"Design",
-    "serv2":"SEO",
+    "serv2":"",
     "serv3":"Landing Page",
     "serv4":"Business Website",
     "serv5":"Applicatii web",
     "serv6":"Administrare pagina web",
 
-    "servDesc1":"Pentru ca vizitatori website-ului dumneavoastră să aibă o experiență plăcută acordăm o servicii de design de calitate cuprinzând logo și web design. Pe lângă un design elegant, luăm în cosiderare și faptul ca website-ul dumneavoastră să arate pe toate dispozitivele.",
-    "servDesc2":"Afacerea dumneavoastră nu apare în căutările motoarelor de căutare? Serviciul de SEO - Search Engine Optimization al BIF PFA ajută ca pagina web afacerii dumneavoatră să ajungă în primele locuri din rezultatele ale motoarelor de căutare.",
-    "servDesc3":"Dacă doriți să prezentați un produs nou, eveniment sau o microîntreprindere, acest serviciu este pentru dumneavoastră. BIF PFA oferă Landing Page-uri nu doar cu cele mai performante metode ci și ceea mai bună metodă cerințelor dumneavoastră. ",
-    "servDesc4":"Oricare afacere merită să aibă o prezență online. BIF PFA are scopul de a acorda ajutor tuturor antreprenorilor să-și aducă business-ul la vedere indiferent de mărimea acestora.",
-    "servDesc5":"Aplicațiile web oferite de BIF PFA sunt de tip Single Page Application (SPA). Scopul lor este ca să ușureze lucurile zi de zi atât în afacerea dumneavoastră cât și în viața de zi cu zi.",
-    "servDesc6":"Aveți deja un wesite, dar doriți să schimbați ceva la ea? BIF PFA vă stă la dispoziție, fie vorba de design sau element nou.",
+    "servDesc1":"Pentru ca vizitatorii website-ului dumneavoastră să beneficieze de o experiență plăcută, oferim servicii de design de înaltă calitate, care includ atât crearea unui logo distinctiv, cât și design web atrăgător. În plus, ne asigurăm că website-ul dumneavoastră este perfect adaptat pentru toate tipurile de dispozitive, garantând astfel o navigare fluentă și consistentă indiferent de ecranul pe care este accesat.",
+    "servDesc2":" ",
+    "servDesc3":"Dacă doriți să promovați un produs nou, un eveniment sau o mică afacere, acest serviciu este perfect pentru dumneavoastră. BIF PFA vă oferă Landing Page-uri care nu numai că utilizează cele mai performante metode, dar se adaptează și cel mai bine cerințelor dumneavoastră.",
+    "servDesc4":"Fiecare afacere merită să fie prezentă online. Misiunea BIF PFA este să ofere sprijin tuturor antreprenorilor în dezvoltarea și promovarea afacerilor lor, indiferent de dimensiunea acestora.",
+    "servDesc5":"Aplicațiile web furnizate de BIF PFA, de tip Single Page Application (SPA), create cu ReactJs, sunt proiectate pentru a simplifica lucrurile atât în cadrul afacerii dumneavoastră, cât și în viața de zi cu zi.",
+    "servDesc6":"Deja aveți un site web, și doriți să îi aduceți îmbunătățiri sau să adăugați elemente noi? BIF PFA este aici pentru dumneavoastră, fie că este vorba de modificări în design sau de integrarea unor funcționalități noi.",
 
 
 
@@ -23,6 +23,6 @@
     "prDesc2":"O aplicație web destinată instituțiilor culturale și afacerilor care are ca activitate de bază servicii producție al evenimentelor artistice. Aplicația conține fișele tehnice (Rideri) necesare pentru un spectacole sau evenimente artistice. Website-ul este creat cu React Js.",
     "prDesc3":"Website creat pentru o flotă de curierat prin CMS-ul Webflow este un site de prezentare cu un design și o relație UX/UI armonioasă. Sarcina al BIF PFA era ca să schimbe anumite elemente, să ajusteze designul și să  administreze legăturile printre linkuri.",
 
-    "abDesc":"BIF PFA este o microîntreprindere cu o vechime de cinci ani în business cu activități multiple precum curierat, suport pentru evenimente artistice și web development și design.",
-    "abDesc2":"Piedestalul microîntreprinderii BIF PFA este curieratul, urmat de suportul pentru evenimente artistice însă scopul principal este de a se îndrepta înspre web development și design ajutând întreprinderile să-și crească amprenta digitală. Pe lângă alte agenții de web design și development BIF PFA acordă opțiunea de a se deplasa la biroul clientului pentru o perioadă determinată. Technologiile pentru crearea website-urilor se adaptează la nevoile clienților."
+    "abDesc":"Cu o experiență de cinci ani în domeniul afacerilor, BIF PFA este o microîntreprindere ce desfășoară o varietate de activități, printre care se numără curieratul, suportul pentru evenimente artistice și dezvoltarea și designul web.",
+    "abDesc2":"Deși curieratul și suportul pentru evenimente artistice reprezintă pilonii de bază ai activității noastre, viziunea principală este concentrată pe dezvoltarea și designul web, având ca scop sprijinirea întreprinderilor în extinderea prezenței lor digitale. În plus față de alte agenții de web design și dezvoltare, BIF PFA oferă flexibilitatea de a se deplasa la sediul clienților pentru a le oferi servicii personalizate pentru o perioadă specifică. Tehnologiile utilizate în crearea website-urilor sunt adaptate în funcție de cerințele și nevoile specifice ale clienților noștri."
 }

@@ -1,4 +1,4 @@
-const serv1 = document.querySelector('#serv-1')
+/*const serv1 = document.querySelector('#serv-1')
 const serv2 = document.querySelector('#serv-2')
 const serv3 = document.querySelector('#serv-3')
 const serv4 = document.querySelector('#serv-4')
@@ -30,7 +30,7 @@ fetch('../backend/data.json')
          // console.log(response);
 
           /*  Servicii  < */
-          serv1.innerHTML = response.serv1;
+        /*serv1.innerHTML = response.serv1;
           serv2.innerHTML = response.serv2;
           serv3.innerHTML = response.serv3;
           serv4.innerHTML = response.serv4;
@@ -45,7 +45,7 @@ fetch('../backend/data.json')
           servDesc6.innerHTML = response.servDesc6;
           /*  Servicii  > */
 
-          /*  Proiecte  < */
+          /*  Proiecte  < 
           ProjectTitle1.innerHTML = response.prTitle1;
           ProjectTitle2.innerHTML = response.prTitle2;
           ProjectTitle3.innerHTML = response.prTitle3;
@@ -56,12 +56,12 @@ fetch('../backend/data.json')
 
           /*  Proiecte  > */
 
-          /*  About   < */
+          /*  About   < 
           aboutDesc.innerHTML = response.abDesc;
           aboutDesc2.innerHTML = response.abDesc2;
-          /*  About   > */
+          /*  About   > 
     }
     )
     .catch(function(err) {
     console.log('Fetch Error :-S', err);
-    });
+    }); */

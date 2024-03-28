@@ -1,14 +1,9 @@
-@font-face {
-    font-family:'Balgin';
-    src: url(Fontspring-DEMO-balgin-extralightexpanded.otf);
-    font-display: swap;
-}
-    
-
 HTML {
-    background-color: rgb(0, 0, 0);
-    font-family: 'Balgin', 'Courier New', Courier, monospace;
+    background-color: rgb(252, 252, 252);
     color: #0189F8;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 
@@ -19,6 +14,8 @@ a {
 }
 
 body {
+    background-color: white
+    width: 100%;
     margin: 0;
     width: 100%;
 }
@@ -50,6 +47,9 @@ p {
 }
 /*    GRID  <  */
 
+.border-left {
+    border-left: white 2px solid;
+}
         /*  SLIDESHOW   < */
             .slideshow-container {
                 max-width: 80%;
@@ -82,164 +82,194 @@ p {
 
 
 /* HEADER < */
-
-.show-element {
-
-}
-    #show-nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-color: rgba(0, 0, 0, 0);
-        border: none;
-        width: 100%;
-        position: fixed;
-        margin: 1rem;
-        z-index: 1;
-    }
-        #show-nav div {
-            height: 6px;
-            width: 3rem;
-            margin: 0rem 1rem;
-            border-radius: 15%;
-            z-index: 2;
-        }
-
 #header {
-    display: none;
+    display: flex;
     position: fixed;
     justify-content: space-around;
-    height: 12rem;
+    height: 6rem;
     width: 100%;
     background-color: rgb(0, 0, 0);
     z-index: 1;
 }
     #logo {
-        height: 14rem;
+        margin: 1rem;
     }
 
     nav {
-        margin-top: 5%;
+        margin-top:1%;
     }
 
         nav a {
             color: #0189F8;
-            font-size: 20px;
+            font-size: 25px;
             margin: 2rem;
         }
             nav a:hover {
-                color: #62ace9;
+                color: #00fbff;
             }
 /* HEADER > */
 
 
+/*  HERO   <    */
+#Hero {
+    background-color: black;
+}
+    #Hero h1 {
+        color: #f9f9f9;
+        font-size: 50px;
+        padding: 0%;
+        margin: 0rem 0rem 0rem 1rem;
+    }
+    #Hero h2 {
+        color: #9471ee;
+        font-size: 50px;
+        padding: 0%;
+        margin-left: 1rem;
+    }
+    #Hero h3 {
+        color: #f9f9f9;
+        font-size: 40px;
+        padding: 0%;
+        margin: 1rem 0rem 0rem 1rem;
+    }
+    
+    #Hero .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @keyframes change-text {
+        0% {
+          content: "Viteză";
+        }
+        25% {
+          content: "Optimizare";
+        }
+        50% {
+          content: "Asistență";
+        }
+        75% {
+          content: "Calitate";
+        }
+        100% {
+            content: "punctualitate";
+        }
+      }
+      
+      .text-container {
+        display: flex;
+        justify-content: center;
+      }
+      .text::after {
+        content: " ";
+      /* animation-duration = number of keyframes * duration per keyframe */
+        animation: change-text 5s infinite;
+      }
+
+/*  HERO   >    */
 
 
+/*  VALUES < */
+#values {
+    background-color: white;
+    width: 100%;
+    color: black;
+    margin: 0rem;
+    padding-top: 5%;
+}
+    #values .grid{
+        grid-template-columns: 1fr 1fr;
+        background-color: white;
+        margin: 1rem auto;
+    }
 
-/* SERVICII < */
-#servicii {
-    color: rgb(255, 255, 255);
-    text-align: center;    
+    #values h3 {
+        margin: 2rem;
+    }
+    .responsive-container {
+        z-index: 2;
+    }
+/*  VALUES > */
+
+/*  PROIECTE < */
+
+#Proiecte {
+    margin-top: 3rem;
+    
+    background-color: rgb(242, 239, 239);
 }
 
-    #servicii .grid {
+#Proiecte .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+    #Proiecte img {
+        margin: 5rem auto;
+        width: 80%;
+    }
+    #Proiecte h1 {
+        font-size: 40px;
+        margin: auto;
+    }
+/*  PROIECTE > */
+
+/*  SERVICII    < */
+#Servicii {
+    text-align: center;
+}
+    #Servicii h1 {
+        font-size: 40px;
+    }
+
+    #Servicii .grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #servicii .grid-content {
-        text-align: center;
-        margin-bottom: 2rem;
+    #Servicii img {
+        width: 100%;
     }
+/*  SERVICII    > */
 
-    #servicii p {
-        margin: 2rem;
-        line-height: 1.2rem;
-        letter-spacing: 2px;
-        font-family: 'Times New Roman', Times, serif
+/*  CLIENTI    < */
+    .client-container {
+        width: 80%;
+        margin: auto;
+        background-color: rgba(201, 163, 216, 0.477);
+        border-radius: 20px;
     }
-
-/* SERVICII > */  
-
-
-
-
-/* PROIECTE < */
-#proiecte {
-    color: rgb(255, 255, 255);
-    text-align: center;    
-}
-
-#proiecte .grid {
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    }
-
-    .CSSslides {
-        display: flex;
-        flex-direction: row;
-        overflow-anchor:auto;
-        overflow-x: scroll;
-    }
-        .grid ::-webkit-scrollbar {
-            width: 10px;
+        .client-container h1 {
+            font-size: 30px;
         }
+            .collage {
+                display: flex;
+                gap: 5px;
+                margin: 3rem auto;
+                overflow-x: hidden;
+                overflow-y: hidden;
+            }
+                .collage img {
+                    margin: 1rem auto;
+                    width: 10%;
 
-        .grid ::-webkit-scrollbar-track {
-            width: 15px;
-            background: #a0c8e822;
-        }
-        .grid ::-webkit-scrollbar-thumb {
-            background: #0189f81d;
-        }
-
-#proiecte img {
-    width: 100%;
-    margin: 0rem 2rem;
-}
-
-#proiecte p {
-    font-family: 'Times New Roman', Times, serif;
-}
-/* PROIECTE > */  
-
-
-
-
-/* GALLERY < */
-#gallery {
-    display: none;
-    margin: 5rem auto;
-    text-align: center;
-}
-/* GALLERY > */
+                }
+/*  CLIENTI    > */
 
 
 
 
 
-/* DESPRE < */
-#despre {
-    height: 50vh;
-    color: rgb(255, 255, 255);
-    text-align: center;    
-}
 
-#despre .grid {
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
 
-#despre img {
-    width: 50%;
-    margin: auto;
-}
 
-#despre p {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    text-indent: 5%;
-}
-/* DESPRE > */  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
