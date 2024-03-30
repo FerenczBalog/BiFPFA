@@ -1,0 +1,415 @@
+HTML {
+    background-color: rgb(0, 0, 0);
+    color: #0189F8;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* GENERAL < */
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4rem;
+    color: #0189F8;
+}
+
+p {
+    font-size: 20px;
+}
+
+.fullscreen {  /* FULLSCREEN */
+    height: 100vh;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.p-title {
+    width: 40%;
+    border-bottom: #0189F8 solid 1px;
+    padding-top: 5rem;
+}
+
+/*    GRID  <  */
+.grid {
+    display: grid;
+    margin: auto;
+    width: 80%;
+    gap: 3rem;
+}
+/*    GRID  <  */
+
+/* GENERAL > */
+
+
+
+
+
+
+/* HEADER < */
+#header {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    height: 6rem;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+}
+    #logo {
+        height: 7rem;
+    }
+
+    nav {
+        margin-top: 2%;
+    }
+
+        nav a {
+            color: #0189F8;
+            font-size: 20px;
+            margin: 2rem;
+        }
+            nav a:hover {
+                color: #62ace9;
+            }
+/* HEADER > */
+
+#Hero {
+    background: black;
+}
+
+
+
+/* SERVICII < */
+#servicii {
+    background-color: rgb(0, 0, 0);
+}
+    #servicii h1{
+        padding: 3rem 0rem 0rem 5rem;
+        font-weight: 100;
+    }
+
+    #servicii .grid {
+        grid-template-columns: 1fr 1fr 1fr;        
+    }
+
+    .serviciu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5rem 0rem;
+        font-size: 150%;
+        color: #ffffff;
+        position: relative;
+        margin: 5rem auto;        
+        background-color: #141414c5;
+        border-radius: 30px;
+        border: #00bbff5e solid 1px;
+        border-bottom: #00bbfff3 solid 2px;;
+    }
+        .serviciu h2 {
+            text-align: center;
+            font-weight: 300;
+            color: #1dd9ff;
+        }
+
+        .serv-img {
+            width: 60%;
+            margin: 0rem auto;
+        }
+
+        .serviciu ul {
+            margin-right: 2rem;
+            font-size: 25px;
+            color: #b8ccdd;
+        }
+
+/* SERVICII > */  
+
+
+
+
+
+
+
+
+
+
+
+/* PROIECTE < */
+#proiecte {
+    color: rgb(255, 255, 255);
+    text-align: center;    
+}
+
+#proiecte .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    }
+
+#proiecte img {
+    width: 100%;
+}
+
+#proiecte a {
+    color: grey;
+    font-size: 30px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+
+
+    .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+    
+    .container:hover .image {
+        opacity: 0.3;
+    }
+
+    .container:hover .middle {
+        opacity: 1;
+    }
+/* PROIECTE > */  
+
+
+
+
+/* GALLERY < */
+#gallery {
+    display: none;
+    margin: 5rem auto;
+    text-align: center;
+}
+/* GALLERY > */
+
+
+
+
+
+/* DESPRE < */
+#despre {
+    height: 50vh;
+    color: rgb(255, 255, 255);
+    text-align: center;    
+}
+
+#despre .grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#despre img {
+    width: 50%;
+    margin: auto;
+}
+
+#despre p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 5%;
+}
+/* DESPRE > */  
+
+
+
+/*  CONTACT < */
+#contact {
+    text-align: center;
+    margin: 30% auto 2rem;    
+}
+
+#contact .grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+#contact img {
+    width: 50%;
+    margin: auto;
+}
+
+#contact h2 {
+    margin-top: 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-color: #0189F8;
+    margin: 2rem 0rem;
+}
+
+    .contact p {
+        margin: 0;
+    }
+
+    #contact a {
+        text-decoration: none;
+        color: #0189F8;
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .address {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0%;
+    }
+    
+    .adress a {
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+/*  CONTACT > */
+
+
+/*      MEDIA QUERY   <  */
+@media (max-width:1400px) {     /*      1400px        */
+
+    #contact {
+        margin: 30% auto 2rem;
+    }
+
+    nav a{
+        font-size: 15px;
+    }
+
+    #servicii .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width:1000px) {
+
+    #banner {
+        width: 100%;
+    }
+
+    #servicii h2 {
+        font-size: 18px;
+    }
+
+    #contact h2{
+        font-size: 18px;
+    }
+
+    #contact a {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:700px) {
+
+    h1 {
+        padding-bottom: 0%;
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    #hero {
+        height: auto;
+    }
+
+    #banner {
+        margin: auto;
+        height: 50%;
+    }
+
+    #header nav {
+        margin-top: 3rem;
+    }
+
+        #header nav a {
+            font-size: 12px;
+            margin-left: 0%;
+        }
+
+    #servicii .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #proiecte .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #despre .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #contact .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        border: none;
+    }
+
+    #contact img{
+        width: 70%;
+    }
+        #contact a {
+            font-size: 12px;
+        }
+
+    #proiecte .CSSslides {
+        display: none;
+    }
+
+    #despre {
+        height: auto;
+    }
+
+    #gallery {
+        height: auto;
+    }
+
+        #gallery img {
+            height: 50%;
+        }
+
+    #contact > p {
+        font-size: 8px;
+        margin: 2rem 0rem 0rem 0rem;
+    }
+}
+/*      MEDIA QUERY   >  */

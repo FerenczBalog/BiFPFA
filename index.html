@@ -16,147 +16,219 @@
                                     z, zz, zzz, x, xxx, xx, y, yy, yyy, asus, lenovo, i5, i7, i8, i9, i10, i11, vortex">
     <meta name="author" content="Balog Ferencz">
     <link rel="stylesheet" href="/Frontend/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
     <header id="header">  <!--  HEADER < -->
-        <img src="/Media/Balog_I_Ferencz_PFA_logo.webp" alt="Balog I Ferencz PFA web development and design logo" srcset="" id="logo">
+        <img src="/Media/Balog_I_Ferencz_PFA_logo.png" alt="Balog I Ferencz PFA web development and design logo" srcset="" id="logo">
         <nav>
-            <a href="#">acasa</a>
+            <a href="#">acasă</a>
             <a href="#servicii">servicii</a>
             <a href="#proiecte">proiecte</a>
-            <!--                <a href="#gallery">galerie foto</a>   -->
-            <a href="#despre">despre</a>
+            <a href="#techs">tehnologii</a>
+            <a href="#clienti">clienții noștri</a>
             <a href="#contact">contact</a>
         </nav>
     </header>  <!--  HEADER > -->
 
-    <section class="show-element"> <!--    OPEN HEADER CONTAINER     < -->
-        <div id="show-nav">
-            <div style="background-color: #b90bf88a;"></div>
-            <div style="background-color: #f424f192;"></div>
-            <div style="background-color: #f424749c;"></div>
-        </div>
-    </section> <!--    OPEN HEADER CONTAINER     > -->
-
     <section id="Hero" class="fullscreen flex-center" >  <!--  HERO < -->
-        <img src="/Media/Balog_I_Ferencz_PFA_logo.webp" alt="" srcset="" id="banner" style="width: auto; height: auto;">
+        <img src="/Media/Balog_I_Ferencz_PFA_logo.png" alt="" srcset="" id="banner" style="width: auto; height: auto;">
     </section>  <!--  HERO > -->
 
     <section id="servicii" class=" "> <!--  SERVICII < -->
-                
-        <h1>SERVICIILE BIF</h1>
+        <div class="p-title">
+            <h1>Servicii</h1>
+        </div>
 
             <div class="grid">
-
-                <div class="grid-content" style="background-image: linear-gradient(#0189f8, #d8020200)">
-                    <h2 id="serv-1">Servicii</h2>
-                    <p id="servDesc-1">description</p>
+                <div class="serviciu">
+                    <img src="/Media/serv-icon/design.png" alt="" srcset="" class="serv-img">
+                    <h2>Design</h2>
+                    <ul>
+                        <li>Planificare pagină web</li>
+                        <li>Creare design</li>
+                        <li>Implementare design</li>
+                        <li>Optimizare la toate dispozitivele</li>
+                    </ul>
+                    
                 </div>
 
-                <div class="grid-content" style="background-image: linear-gradient(#584AFF, #0189f800);">
-                    <h2 id="serv-2">Servicii</h2>
-                    <p id="servDesc-2">description</p>
+                <div class="serviciu">
+                    <img src="/Media/serv-icon/development.png" alt="" srcset="" class="serv-img">
+                    <h2>Development</h2>
+                    <div>
+                        <ul>
+                            <li>Landing Page</li>
+                            <li>Single Page Website</li>
+                            <li>Business website</li>
+                            <li>Aplicație web SPA</li>
+                            <li>SEO</li>
+                        </ul>
+                        
+                    </div>
+                        
                 </div>
 
-                <div class="grid-content" style="background-image: linear-gradient(#7200F4, #0189f800);">
-                    <h2 id="serv-3">Servicii</h2>
-                    <p id="servDesc-3">description</p>
+                <div class="serviciu">
+                    <img src="/Media/serv-icon/admin.png" alt="" srcset="" class="serv-img">
+                        <h2>Administrare</h2>
+                        <ul>
+                            <li>Editarea conținutului</li>
+                            <li>Domain Management</li>
+                            <li>Salvare / Recuperare</li>
+                            <li>Actualizări</li>
+                            <li>Optimizarea performanței</li>
+                        </ul>
                 </div>
-
-                <div class="grid-content" style="background-image: linear-gradient(#BA0BF8, #0189f800);">
-                    <h2 id="serv-4">Servicii</h2>
-                    <p id="servDesc-4">description</p>
-                </div>
-
-                <div class="grid-content" style="background-image: linear-gradient(#F424F2, #0189f800);">
-                    <h2 id="serv-5">Servicii</h2>
-                    <p id="servDesc-5">description</p>
-                </div>
-
-                <div class="grid-content" style="background-image: linear-gradient(#F42475, #0189f800);">
-                    <h2 id="serv-6">Servicii</h2>
-                    <p id="servDesc-6">description</p>
-                </div>
-
             </div>
 
-    </section>  <!--  SERVICII > -->
+    </section>
 
     <section id="proiecte" class=" "> <!--  PROIECTE < -->
-
-        <h1>PROIECTE BIF</h1>
+        <div class="p-title"> 
+            <h1>Proiecte</h1>
+        </div>
+        
         <div class="grid">
             
-           <div class="CSSslides">  <!-- PROJECT 1 < -->
-                <img src="/Media/projects/mylifedash/m1.webp" alt="proiect web development, web application Balog I Ferencz PFA">
-                <img src="/Media/projects/mylifedash/m2.webp" alt="proiect web development, web application Balog I Ferencz PFA">
-                <img src="/Media/projects/mylifedash/m3.webp" alt="proiect web development, web application Balog I Ferencz PFA" srcset="">
-           </div>
-           <div>
-            <h2 id="projectTitle1"> </h2>
-            <p id="projectDesc1"> </p>
-           </div>   <!-- PROJECT 1 > -->          
-            
-           <div>    <!-- PROJECT 2 < -->
-            <h2 id="projectTitle2"> </h2>
-            <p id="projectDesc2"> </p>
-           </div>
-           <div class="CSSslides">
-            <img src="/Media/projects/riderbox/r1.webp" alt="proiect web development, web application Balog I Ferencz PFA">
-            </div>  <!-- PROJECT 2 > -->            
-    
-            <div class="CSSslides"> <!-- PROJECT 3 < -->
-                <img src="/Media/projects/drop/d1.webp" alt="proiect web development, web design, logo design Balog I Ferencz PFA">
-                <img src="/Media/projects/drop/d2.webp" alt="proiect web development, web design, logo design Balog I Ferencz PFA">
-                <img src="/Media/projects/drop/d3.webp" alt="proiect web development, web design, logo design Balog I Ferencz PFA" srcset="">
-                <img src="/Media/projects/drop/d4.webp" alt="proiect web development, web design, logo design Balog I Ferencz PFA">
-            </div>
-            <div>
-                <h2 id="projectTitle3"> </h2>
-                <p id="projectDesc3"> </p>
-            </div>  <!-- PROJECT 3 > -->            
+            <div class="container"> <!--  MYLIFEDASH < -->                
+                <a href="http://mylifedash.netlify.app" target="_blank" rel="noopener noreferrer" alt="proiect mylifedash">
+                    <img src="/Media/projects/mylifedash.webp"alt="proiect mylifedash" class="image">
+                </a>
+                <a href="http://mylifedash.netlify.app" target="_blank" rel="noopener noreferrer" alt="proiect mylifedash" class="middle">
+                    <i class="fa-solid fa-arrow-up-right-from-square" class="open-page"></i>
+                </a>
+                <h2>Aplicație web</h2>
+            </div>   <!--  MYLIFEDASH > -->
 
+            <div class="container">  <!--  RIDERBOX < -->
+                <a href="http://rider-box.netlify.app" target="_blank" rel="noopener noreferrer" alt="proiect rider-box">                
+                    <img src="/Media/projects/riderbox.webp" alt="proiect rider-box" class="image">                  
+                </a>
+                
+                <a href="http://rider-box.netlify.app" target="_blank" rel="noopener noreferrer" alt="proiect rider-box" class="middle">                
+                    <i class="fa-solid fa-arrow-up-right-from-square" class="open-page"></i>                    
+                </a>
+                <h2>Aplicație web</h2>
+            </div>  <!--  RIDERBOX  > -->
+
+            <div class="container">   <!--  BLACKBOX < -->
+                <a href="http://blackboxproductions.ro" target="_blank" rel="noopener noreferrer" alt="proiect blackbox-productions">
+                    <img src="/Media/projects/blackbox.webp" alt="proiect blackbox-productions" class="image"> 
+                </a>    
+                         
+                <a href="http://blackboxproductions.ro" target="_blank" rel="noopener noreferrer" alt="proiect blackbox-productions" class="middle">
+                    <i class="fa-solid fa-arrow-up-right-from-square" class="open-page"></i></i>
+                </a>
+                <h2>Single Page Website</h2>
+            </div>  <!--  BLACKBOX > -->
+
+            <div class="container">   <!--  DROP < -->
+                <a href="https://www.dropcourier.ro" target="_blank" rel="noopener noreferrer" alt="proiect drop">
+                    <img src="/Media/projects/drop.webp" alt="proiect drop delivery" class="image"> 
+                </a>    
+                         
+                <a href="https://www.dropcourier.ro" target="_blank" rel="noopener noreferrer" alt="proiect drop" class="middle">
+                    <i class="fa-solid fa-arrow-up-right-from-square" class="open-page"></i></i>
+                </a>
+                <h2>Business Website</h2>
+            </div>  <!--  DROP > -->
         </div>
 
     </section>  <!--  PROIECTE > -->
-        
-    <section id="despre" class="fullscreen">    
 
-        <h1>DESPRE BIF PFA</h1>
+    <section id="techs" class=" "> <!--  TECHS < -->
+        <div class="p-title">
+            <h1>Tehnologii</h1>
+        </div>
+
+            <div class="collage grid">                
+                <div>
+                    <img src="/Media/techs/lightroom.webp" alt="lightroom">
+                    <img src="/Media/techs/photoshop.webp" alt="photoshop">                    
+                    <img src="/Media/techs/afteref.webp" alt="after effects">
+                    <img src="/Media/techs/premiere.webp" alt="premiere pro">
+                    <img src="/Media/techs/kdenlive.webp" alt="kdenlive">
+                    
+                    <img src="/Media/techs/gimp.webp" alt="Gnu Image Manipulation Program">
+                    <img src="/Media/techs/inkscape.webp" alt="inkscape">
+                    <img src="/Media/techs/figma.webp" alt="figma">   
+                    <img src="/Media/techs/canva.webp" alt="canva">
+                    
+                    <img src="/Media/techs/3dsmax.webp" alt="3dsmax">
+                    <img src="/Media/techs/blender.webp" alt="blender">       
+
+                    <img src="/Media/techs/weebly.webp" alt="weebly">
+                    <img src="/Media/techs/webflow.webp" alt="webflow">
+                    <img src="/Media/techs/wordpress.webp" alt="wordpress">
+                    <img src="/Media/techs/wix.webp" alt="wix">                                  
+
+                    <img src="/Media/techs/html.webp" alt="html">
+                    <img src="/Media/techs/css.webp" alt="css">
+                    <img src="/Media/techs/Js.webp" alt="Javascript">
+
+                    <img src="/Media/techs/node.webp" alt="node">
+                    <img src="/Media/techs/react.webp" alt="react">
+                    <img src="/Media/techs/expressjs.webp" alt="expressjs">
+                    <img src="/Media/techs/bootstrap.webp" alt="bootstrap">                                       
+                    
+                    <img src="/Media/techs/cp.webp" alt="cpanel">                    
+                    
+                    <img src="/Media/techs/mysql.webp" alt="mysql">
+                    <img src="/Media/techs/sql.webp" alt="sql">
+                    <img src="/Media/techs/mongo.webp" alt="mongo db">  
+                </div>
+            </div>
+
+    </section>  <!--  TECHS > -->
+        
+    <section id="clienti" class=" ">    <!--    CLIENTI  < -->
+
+        <div class="p-title">
+            <h1>Clienții noștri</h1>
+        </div>
+        <div class="collage">
+            <img src="/Media/clients/drop.webp" alt="drop delivery" srcset="">
+            <img src="/Media/clients/blackbox.webp" alt="blackbox productions" srcset="">
+            <img src="/Media/clients/pergola.webp" alt="pergola 24" srcset="">
+            <img src="/Media/clients/puck.webp" alt="puck" srcset="">           
+        </div>
 
         <div class="grid">
-            <img src="/Media/Balog_I_Ferencz_PFA_logo.webp" alt="proiect-bif-pfa" srcset="" id="despreLogo">
-            <div>
-                <h2>BIF PFA</h2>
-                <p id="despreDesc"> </p>
-                <p id="despreDesc2"> </p>
-            </div>
+            
         </div> 
-    </section>  <!--    DESPRE  > -->
+    </section>  <!--    CLIENTI  > -->
 
     <section id="contact" class=" ">    <!--    CONTACT  < -->
 
+        <h1>CONTACT</h1>
+
         <div class="grid">
-
-            <h1>CONTACT</h1>
-
-            <div class="contact adress">
-                <h2>Balog Ferencz</h2>
-
-                <a href="mailto:bif.pfa@gmail.com">bif.pfa&#64;gmail.com</a> <br>
-                <a href="mailto:balogferencz.artist@gmail.com">balogferencz.artist&#64;gmail.com</a> <br>
-                <a href="tel:+40753903370">0753 903 370</a> <br>
-                <a href="tel:+40753903370">0752 813 860</a>
+            <div class="address">                
+                <a href="mailto:bif.pfa@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> bif.pfa@gmail.com</a><br>
+                <a href="tel:+40753903370" target="_blank"><i class="fa-brands fa-whatsapp"></i> / <i class="fa-solid fa-mobile-screen"></i> </i> 0753 903 370</a>  <br>
+                <a href="https://maps.app.goo.gl/4ruesNadAuyXRwqU8" target="_blank"><i class="fa-solid fa-location-dot"></i> Cluj-Napoca, RO</a>             
+            </div>
+            <div class="icons">
+                <a href="https://www.facebook.com/bifpfa" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/ferenczbalog/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/bif.pfa" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
             </div>
         </div>
-
     </section>  <!--    CONTACT  > -->
+
+    <footer>
+        <p>&copy Balog I. Ferencz</a></p>
+    </footer>
     
     <div data-tf-live="01HSE7E03GPST79J0TPQHYHC6G"> <!--    TYPEFORM   --> </div>
 
     <script src="/Backend/engine.js"></script>    
     <script src="/Frontend/fx-script.js"></script>   
-    <script src="//embed.typeform.com/next/embed.js"></script>
+    <script src="//embed.typeform.com/next/embed.js"></script>    
 </body>
 </html>
