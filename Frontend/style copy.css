@@ -1,5 +1,4 @@
 HTML {
-    background-color: rgb(0, 0, 0);
     color: #0189F8;
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
@@ -14,13 +13,15 @@ a {
 body {
     margin: 0;
     width: 100%;
-    background-color: white;
+    background-color: rgba(52, 52, 52, 0.334);
 }
 
 h1 {
     margin: 0;
-    font-size: 4rem;
-    color: #0189F8;
+    font-size: 3rem;
+    font-weight: 100;
+    color: #cacdcf;
+    padding: 3rem 0rem 0rem 5rem;      
 }
 
 p {
@@ -36,18 +37,18 @@ p {
     justify-content: center;
 }
 
-.p-title {
-    width: 40%;
-    border-bottom: #0189F8 solid 1px;
-    padding-top: 5rem;
-}
-
 /*    GRID  <  */
 .grid {
     display: grid;
     margin: auto;
     width: 80%;
     gap: 3rem;
+}
+
+.p-title {
+    width: 100%;
+    text-align: center;
+    padding-top: 5rem;
 }
 /*    GRID  <  */
 
@@ -77,29 +78,22 @@ p {
     }
 
         nav a {
-            color: #0189F8;
-            font-size: 20px;
+            color: rgb(247, 247, 247);
+            font-size: 25px;
             margin: 2rem;
         }
             nav a:hover {
-                color: #62ace9;
+                color: grey;
             }
 /* HEADER > */
 
 #Hero {
-    background: black;
+    background-image: linear-gradient(#000000, #101010);
 }
 
 
 
 /* SERVICII < */
-#servicii {
-    background-color: rgb(0, 0, 0);
-}
-    #servicii h1{
-        padding: 3rem 0rem 0rem 5rem;
-        font-weight: 100;
-    }
 
     #servicii .grid {
         grid-template-columns: 1fr 1fr 1fr;        
@@ -107,17 +101,14 @@ p {
 
     .serviciu {
         display: flex;
-        justify-content: center;
+        align-items: center;
         flex-direction: column;
         padding: 5rem 0rem;
         font-size: 150%;
-        color: #ffffff;
-        position: relative;
         margin: 5rem auto;        
-        background-color: #141414c5;
+        background-color: rgba(0, 0, 0, 0.238);
         border-radius: 30px;
-        border: #00bbff5e solid 1px;
-        border-bottom: #00bbfff3 solid 2px;;
+        border-bottom: #00bbfff3 solid 2px;
     }
         .serviciu h2 {
             text-align: center;
@@ -126,14 +117,14 @@ p {
         }
 
         .serv-img {
-            width: 60%;
+            width: 30%;
             margin: 0rem auto;
         }
 
         .serviciu ul {
             margin-right: 2rem;
             font-size: 25px;
-            color: #b8ccdd;
+            color: rgb(220, 224, 227);
         }
 
 /* SERVICII > */  
@@ -141,22 +132,10 @@ p {
 
 
 
-
-
-
-
-
-
-
 /* PROIECTE < */
-#proiecte {
-    color: rgb(255, 255, 255);
-    text-align: center;    
-}
 
 #proiecte .grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
+    grid-template-columns: 1fr 1fr;
     }
 
 #proiecte img {
@@ -171,6 +150,14 @@ p {
 .container {
     position: relative;
     width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 5rem auto;
+    flex-direction: column;
+    padding:1rem 0rem;      
+    background-color: #242424ad;
+    border-radius: 30px;
+    border-bottom: #00bbfff3 solid 2px;
   }
 
 
@@ -205,49 +192,53 @@ p {
 
 
 
-
-/* GALLERY < */
-#gallery {
-    display: none;
-    margin: 5rem auto;
-    text-align: center;
+/*  TECHS   < */
+#techs {
+    padding-bottom: 2rem;
 }
-/* GALLERY > */
+    .collage {
+        width: 95%;
+        margin: 5rem auto;
+        height: auto;
+        padding:1rem 0rem;      
+        background-color: #242424ad;
+        border-radius: 30px;
+        border-bottom: #00bbfff3 solid 2px;
+    }
 
+    .collage img {
+        width: 5%;
+        margin: 1rem;
+    }
+/*  TECHS   > */
 
-
-
-
-/* DESPRE < */
-#despre {
-    height: 50vh;
-    color: rgb(255, 255, 255);
-    text-align: center;    
+/*  CLIENTI < */
+#clienti .collage {
+    display: flex;
+    justify-content:space-around;
+    width: 70%;
 }
 
-#despre .grid {
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-
-#despre img {
-    width: 50%;
+#clienti .p-title {
     margin: auto;
+    text-align: center;
+    border: none;
 }
+    #clienti img {
+        width: 10%;
+    }
 
-#despre p {
-    font-family: 'Times New Roman', Times, serif;
-    text-align: justify;
-    text-indent: 5%;
+#clienti h1 {
+    padding: none;
 }
-/* DESPRE > */  
-
+/*  CLIENTI > */
 
 
 /*  CONTACT < */
 #contact {
     text-align: center;
-    margin: 30% auto 2rem;    
+    padding-bottom: 5rem;
+    background-color: rgba(52, 52, 52, 0.334);
 }
 
 #contact .grid {
@@ -267,7 +258,7 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-color: #0189F8;
+    border-color: #9a9b9c;
     margin: 2rem 0rem;
 }
 
@@ -277,7 +268,7 @@ p {
 
     #contact a {
         text-decoration: none;
-        color: #0189F8;
+        color: #bcbfc2;
         font-size: 20px;
         line-height: normal;
     }
@@ -288,11 +279,31 @@ p {
         padding-top: 0%;
     }
     
-    .adress a {
-        font-family: 'Times New Roman', Times, serif;
-
+    .icons {        
+        font-size: 25px;
+        margin: auto;        
     }
+        .icons a {
+            margin: 5px;            
+        }
+        .icons i {
+            font-size: 40px;
+        }
 /*  CONTACT > */
+
+/*  FOOTER < */
+footer {
+    background-color: rgba(52, 52, 52, 0.334);
+    width: 100%;
+    text-align: center;
+}
+    footer p {
+        margin: 0;
+        padding-bottom: 2rem;
+        color: #7e7f80;
+    }
+
+/*  FOOTER > */
 
 
 /*      MEDIA QUERY   <  */
