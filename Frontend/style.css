@@ -14,13 +14,14 @@ a {
 body {
     margin: 0;
     width: 100%;
+    background-color: rgba(52, 52, 52, 0.334);
 }
 
 h1 {
     margin: 0;
     font-size: 3rem;
     font-weight: 100;
-    color: #0189F8;
+    color: #cacdcf;
     padding: 3rem 0rem 0rem 5rem;      
 }
 
@@ -46,8 +47,8 @@ p {
 }
 
 .p-title {
-    width: 40%;
-    border-bottom: #0189F8 solid 1px;
+    width: 100%;
+    text-align: center;
     padding-top: 5rem;
 }
 /*    GRID  <  */
@@ -78,23 +79,22 @@ p {
     }
 
         nav a {
-            color: #0189F8;
-            font-size: 20px;
+            color: rgb(247, 247, 247);
+            font-size: 25px;
             margin: 2rem;
         }
             nav a:hover {
-                color: #62ace9;
+                color: grey;
             }
 /* HEADER > */
 
-
+#Hero {
+    background-image: linear-gradient(#000000, #101010);
+}
 
 
 
 /* SERVICII < */
-#servicii {
-    background-color: rgba(52, 52, 52, 0.334);
-}
 
     #servicii .grid {
         grid-template-columns: 1fr 1fr 1fr;        
@@ -109,7 +109,6 @@ p {
         margin: 5rem auto;        
         background-color: rgba(0, 0, 0, 0.238);
         border-radius: 30px;
-        border: #00bbff5e solid 1px;
         border-bottom: #00bbfff3 solid 2px;
     }
         .serviciu h2 {
@@ -119,14 +118,14 @@ p {
         }
 
         .serv-img {
-            width: 60%;
+            width: 30%;
             margin: 0rem auto;
         }
 
         .serviciu ul {
             margin-right: 2rem;
             font-size: 25px;
-            color: #b8ccdd;
+            color: rgb(220, 224, 227);
         }
 
 /* SERVICII > */  
@@ -137,8 +136,6 @@ p {
 /* PROIECTE < */
 
 #proiecte {
-    
-    background-color: rgb(0, 0, 0);
 }
     #proiecte .p-title {
         margin-bottom: 2rem;
@@ -212,12 +209,12 @@ p {
 
 /*  TECHS   < */
 #techs {
-    background-color: rgba(52, 52, 52, 0.334);
     padding-bottom: 2rem;
 }
     .collage {
-        width: 70%;
+        width: 95%;
         margin: 5rem auto;
+        height: auto;
         padding:1rem 0rem;      
         background-color: #242424ad;
         border-radius: 30px;
@@ -225,7 +222,7 @@ p {
     }
 
     .collage img {
-        width: 8%;
+        width: 5%;
         margin: 1rem;
     }
 /*  TECHS   > */
@@ -234,6 +231,8 @@ p {
 #clienti .collage {
     display: flex;
     justify-content:space-around;
+    width: 70%;
+    height: auto;
 }
 
 #clienti .p-title {
@@ -272,7 +271,7 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-color: #0189F8;
+    border-color: #9a9b9c;
     margin: 2rem 0rem;
 }
 
@@ -282,7 +281,7 @@ p {
 
     #contact a {
         text-decoration: none;
-        color: #0189F8;
+        color: #bcbfc2;
         font-size: 20px;
         line-height: normal;
     }
@@ -315,7 +314,7 @@ footer {
     footer p {
         margin: 0;
         padding-bottom: 2rem;
-        color: #0189f830;
+        color: #7e7f80;
     }
 
 /*  FOOTER > */
