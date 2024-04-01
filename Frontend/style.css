@@ -89,6 +89,14 @@ i {
 .fullscreen {
     height: 100vh;
 }
+
+#Hero {
+    background-image: url(/Media/bkg.png);
+    background-position: center;
+}
+    #Hero div {
+        margin-top: 20%;
+    }
 /* GENERAL > */
 
 /* HEADER < */
@@ -98,7 +106,7 @@ i {
     justify-content: space-around;
     height: 6rem;
     width: 100%;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(23, 23, 23);
     z-index: 1;
 }
     #logo {
@@ -126,6 +134,7 @@ i {
 }
 
 .serviciu {
+    width: 100%;
     align-items: center;
     flex-direction: column;
     padding: 5rem 0rem;
@@ -266,6 +275,22 @@ footer {
 }
 
 @media (max-width:1000px) {
+    #Hero {
+        height: 100vh;
+    }
+        h1 {
+            font-size: 20px;
+        }
+        #Hero h2 {
+            font-size: 15px;
+        }
+    #servicii {
+        height: auto;
+    }
+
+    #servicii .grid {
+        grid-template-columns: 1fr;
+    }
     #servicii h2 {
         font-size: 18px;
     }
@@ -285,6 +310,10 @@ footer {
 
 @media (max-width:700px) {
 
+    #Hero div {
+        margin-top: 40%;
+    }
+
     h1 {
         padding-bottom: 0%;
         font-size: 18px;
@@ -298,18 +327,11 @@ footer {
         font-size: 12px;
     }
 
-    #Hero {
-        width: 100%;
-        height: auto;
-    }
-
     #banner {
         margin: auto;
         width: 100%;
     }
-    #header {
-        display: none;
-    }
+
 
     #header nav {
         margin-top: 3rem;
@@ -367,5 +389,20 @@ footer {
         margin: 2rem 0rem 0rem 0rem;
     }
 
+}
+
+@media (max-width:400px) {
+    #Hero div {
+        margin-top: 80%;
+    }
+
+    #Hero h1 {
+        font-size: 15px;
+        margin: 5rem 2rem 0rem 2rem;
+    }
+
+    #Hero h2 {
+        font-size: 12px;
+    }
 }
 /*      MEDIA QUERY   >  */
