@@ -1,0 +1,38 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.blackboxproductions.ro/sitemap.xml
+
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: *
+Disallow: /calendar/
+Disallow: /junk/
+Disallow: /books/fiction/contemporary/
+
+User-agent: Googlebot-news
+Allow: /
+
+User-agent: *
+Disallow: /
+
+User-agent: Unnecessarybot
+Disallow: /
+
+User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /useless_file.html
+Disallow: /junk/other_useless_file.html
+
+User-agent: *
+Disallow: /
+Allow: /public/
+
+
+
