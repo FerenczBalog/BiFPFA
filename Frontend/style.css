@@ -99,6 +99,18 @@ i {
     }
 /* GENERAL > */
 
+/*  smartphone-nav < */
+#bars {
+    display: none;
+}
+#nav-modal {
+    display: none;
+}
+#nav-modal ul {
+    display: none;
+}
+/*  smartphone-nav > */
+
 /* HEADER < */
 #header {
     display: flex;
@@ -309,6 +321,26 @@ footer {
 }
 
 @media (max-width:700px) {
+
+    #header {
+        display: none;
+    }
+
+    #bars {
+        position: fixed;
+        right: 0;
+        display: block;
+        background-color: #6e767d00;
+        color: #bcbfc2;
+        margin: 2rem;
+        border: none;
+        
+    }
+        #nav-modal ul {
+            margin: auto;
+            font-size: 250%;
+            list-style: none;
+        }
 
     #Hero div {
         margin-top: 40%;
