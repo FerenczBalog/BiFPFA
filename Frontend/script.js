@@ -1,11 +1,13 @@
 const modal = document.querySelector("#nav-modal");
 const openModal = document.querySelector("#bars");
 const overlay = document.querySelector("#overlay");
+const navList = document.querySelector("#nav-bar")
 
 //      MODAL <
 openModal.onclick = () => {
     modal.style.display = "flex"
     overlay.style.display = "block"
+    navList.style.display = "block"
     openModal.style.display = "none"
 }
 overlay.onclick = () => {
