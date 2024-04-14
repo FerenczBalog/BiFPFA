@@ -103,6 +103,9 @@ i {
 #bars {
     display: none;
 }
+#close {
+    display: none;
+}
 #nav-modal {
     display: none;
 }
@@ -326,7 +329,7 @@ footer {
         display: none;
     }
 
-    .open-close {
+    #bars {
         position: fixed;
         right: 0;
         display: block;
@@ -334,6 +337,17 @@ footer {
         color: #bcbfc2;
         margin: 2rem;
         border: none;        
+    }
+
+    #close {
+        display: none;
+        position: fixed;
+        right: 0;
+        display: block;
+        background-color: #6e767d00;
+        color: #bcbfc2;
+        margin: 2rem;
+        border: none;  
     }
         #nav-modal ul {
             margin: auto;
