@@ -339,8 +339,7 @@ footer {
         border: none;        
     }
 
-    #close {
-        display: none;
+    #close {        
         position: fixed;
         right: 0;
         display: block;
