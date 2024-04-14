@@ -1,5 +1,5 @@
 const modal = document.querySelector("#nav-modal");
-const openModal = document.querySelector("#bars");
+const openModal = document.querySelector(".open-close");
 const overlay = document.querySelector("#overlay");
 const navList = document.querySelector("#nav-bar")
 

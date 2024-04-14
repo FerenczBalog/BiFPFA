@@ -326,15 +326,14 @@ footer {
         display: none;
     }
 
-    #bars {
+    .open-close {
         position: fixed;
         right: 0;
         display: block;
         background-color: #6e767d00;
         color: #bcbfc2;
         margin: 2rem;
-        border: none;
-        
+        border: none;        
     }
         #nav-modal ul {
             margin: auto;
