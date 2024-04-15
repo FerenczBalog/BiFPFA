@@ -290,6 +290,45 @@ footer {
 }
 
 @media (max-width:1000px) {
+    /*  SmallScreenNavigation    < */
+    #header {
+        display: none;
+    }
+    #bars {
+        display: flex;
+        margin: 2rem;
+        color: rgb(216, 214, 214);
+        background-color: #00000000;
+        border: none;
+        position: fixed;
+        right: 0;
+    }
+
+    #close {
+        margin: 2rem;
+        color: rgb(216, 214, 214);
+        background-color: #00000000;
+        border: none;
+        position: fixed;
+        right: 0;
+        z-index: 1;
+    }
+
+    #nav-bar {   
+        list-style: none;     
+    }
+    
+    #nav-modal {
+        position: fixed;
+        width: 100%;
+        background-color: rgb(23, 23, 23);
+    }
+
+    #nav-modal li {
+        margin: 1rem;
+    }
+/*  SmallScreenNavigation    > */
+
     #Hero {
         height: 100vh;
     }
@@ -325,46 +364,6 @@ footer {
 
 @media (max-width:700px) {
 
-    #header {
-        display: none;
-    }
-
-    /*  SMALL SCREEN NAVIGATION     < */
-    #bars {
-        display: flex;
-        margin: 2rem;
-        color: rgb(216, 214, 214);
-        background-color: #00000000;
-        border: none;
-        position: fixed;
-        right: 0;
-    }
-
-    #close {
-        margin: 2rem;
-        color: rgb(216, 214, 214);
-        background-color: #00000000;
-        border: none;
-        position: fixed;
-        right: 0;
-        z-index: 1;
-    }
-
-    #nav-bar {   
-        list-style: none;     
-    }
-    
-    #nav-modal {
-        position: fixed;
-        width: 100%;
-        background-color: rgb(23, 23, 23);
-    }
-
-    #nav-modal li {
-        margin: 1rem;
-    }
-    /*  SMALL SCREEN NAVIGATION     > */
-
     h1 {
         padding-bottom: 0%;
         font-size: 18px;
@@ -382,16 +381,6 @@ footer {
         margin: auto;
         width: 100%;
     }
-
-
-    #header nav {
-        margin-top: 3rem;
-    }
-
-        #header nav a {
-            font-size: 12px;
-            margin-left: 0%;
-        }
 
     #servicii .grid {
         grid-template-columns: 1fr;
