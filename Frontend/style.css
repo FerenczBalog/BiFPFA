@@ -91,12 +91,21 @@ i {
 }
 
 #Hero {
-    background-image: url(/Media/bkg.png);
-    background-position: center;
+    height: 30%;
+    width: 100%;
 }
-    #Hero div {
-        margin-top: 20%;
-    }
+
+#Hero div {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#net-bkg {
+    width: 100%;
+    z-index: 2;
+}
 /* GENERAL > */
 
 /*  smartphone-nav < */
@@ -302,6 +311,7 @@ footer {
         border: none;
         position: fixed;
         right: 0;
+        z-index: 2;
     }
 
     #close {
@@ -311,7 +321,7 @@ footer {
         border: none;
         position: fixed;
         right: 0;
-        z-index: 1;
+        z-index: 3;
     }
 
     #nav-bar {   
@@ -329,17 +339,19 @@ footer {
         width: 100%;
         background-color: rgb(23, 23, 23);
         padding: 1rem 0rem;
+        z-index: 2;
     }
 /*  SmallScreenNavigation    > */
 
-    #Hero {
-        height: 100vh;
-    }
         h1 {
             font-size: 20px;
         }
         #Hero h2 {
             font-size: 15px;
+        }
+
+        #Hero div {
+            margin-top: 10%;
         }
     #servicii {
         height: auto;
