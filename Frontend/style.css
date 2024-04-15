@@ -316,16 +316,19 @@ footer {
 
     #nav-bar {   
         list-style: none;     
+        border-left: #00bbfff3 solid 2px;
+        padding: 0rem;
+        margin: auto;
     }
+        #nav-bar li {
+            margin: 0.5rem;
+        }
     
     #nav-modal {
         position: fixed;
         width: 100%;
         background-color: rgb(23, 23, 23);
-    }
-
-    #nav-modal li {
-        margin: 1rem;
+        padding: 1rem 0rem;
     }
 /*  SmallScreenNavigation    > */
 
