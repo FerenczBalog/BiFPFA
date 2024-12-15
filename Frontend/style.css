@@ -10,7 +10,8 @@ body {
     width: 100%;
     height: auto;
     margin: auto;
-    background-color: rgba(22, 22, 22, 0.973);
+    /*background-color: rgba(22, 22, 22, 0.973);*/
+    background-color: #000000;
 }
 
 h1 {
