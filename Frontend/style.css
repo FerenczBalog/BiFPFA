@@ -10,8 +10,7 @@ body {
     width: 100%;
     height: auto;
     margin: auto;
-    /*background-color: rgba(22, 22, 22, 0.973);*/
-    background-color: #000000;
+    background-color: rgba(22, 22, 22, 0.973);
 }
 
 h1 {
@@ -264,7 +263,7 @@ i {
     }
 
     #contact a {
-        font-size: 2rem;
+        font-size: 1rem;
         line-height: normal;
     }
 
